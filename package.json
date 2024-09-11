@@ -1,0 +1,19 @@
+{
+  "name": "discussion-users",
+  "version": "1.0.0",
+  "description": "Get all user emails from public github discussion.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "Lawrence Owen",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
